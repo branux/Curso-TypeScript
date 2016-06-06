@@ -1,0 +1,7 @@
+** Instruções p/ criar HelloWorldTSC **
+
+1. Crie um projeto empty de web (exclua o web.config)
+2. Crie a pasta scripts
+3. Em Scripts crie um TypeScriptFile chamado "Carro.ts"
+4. Codifique-o conforme o arquivo contido nesse projeto
+5. Crie um index.html e referencie o Carro.js
