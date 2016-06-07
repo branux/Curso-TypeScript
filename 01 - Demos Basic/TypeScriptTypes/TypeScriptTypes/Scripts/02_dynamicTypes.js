@@ -16,4 +16,3 @@ var demo_dynamicTypes;
     person = 'Fabiano Nalin';
     console.log(person.substring(1, 3));
 })(demo_dynamicTypes || (demo_dynamicTypes = {}));
-//# sourceMappingURL=02_dynamicTypes.js.map

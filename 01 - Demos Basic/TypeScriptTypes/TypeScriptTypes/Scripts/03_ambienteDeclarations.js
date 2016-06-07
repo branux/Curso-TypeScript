@@ -7,4 +7,3 @@ var demo_ambienteDeclarations;
     var value = guy.fullName();
     console.log(value);
 })(demo_ambienteDeclarations || (demo_ambienteDeclarations = {}));
-//# sourceMappingURL=03_ambienteDeclarations.js.map

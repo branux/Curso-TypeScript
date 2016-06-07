@@ -59,4 +59,3 @@ var demo_02_02;
         init('startButton', 'pauseButton', 'clearButton');
     };
 })(demo_02_02 || (demo_02_02 = {}));
-//# sourceMappingURL=extra_timer.js.map
