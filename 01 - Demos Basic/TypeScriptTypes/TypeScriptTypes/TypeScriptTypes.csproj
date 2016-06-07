@@ -73,6 +73,7 @@
     <Content Include="03_ambienteDeclarations.html" />
     <Content Include="04_primitives.html" />
     <Content Include="05_objects.html" />
+    <Content Include="06_functions.html" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +85,7 @@
     <TypeScriptCompile Include="Scripts\03_ambienteDeclarations.ts" />
     <TypeScriptCompile Include="Scripts\04_primitives.ts" />
     <TypeScriptCompile Include="Scripts\05_objects.ts" />
+    <TypeScriptCompile Include="Scripts\06_functions.ts" />
     <TypeScriptCompile Include="Scripts\extra_timer.ts" />
   </ItemGroup>
   <ItemGroup>
