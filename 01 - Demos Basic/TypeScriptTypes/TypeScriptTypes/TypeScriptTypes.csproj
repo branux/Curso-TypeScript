@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="01_grammar.html" />
     <Content Include="02_dynamicTypes.html" />
+    <Content Include="03_ambienteDeclarations.html" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,10 +79,14 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\01_grammar.ts" />
     <TypeScriptCompile Include="Scripts\02_dynamicTypes.ts" />
+    <TypeScriptCompile Include="Scripts\03_ambienteDeclarations.ts" />
     <TypeScriptCompile Include="Scripts\extra_timer.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".bowerrc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
