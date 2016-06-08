@@ -1,0 +1,19 @@
+﻿Passos:
+
+1. Definir a pasta
+2. Abrir a pasta com o VS Code
+3. Criar o arquivo de configuração
+- Crie um arquivo na raiz com o nome tsconfig.json
+Conteúdo:
+	{
+	  "compillerOptions":{
+		"target":"ES5"
+		}
+	}
+4. Configurar o Task Runner
+- Tente compilar na 1. vez (ctrl+shift+b) e clique em Configure Task. Escolha tsconfig.json para que o task.json seja criado (Para funcionar é necessário instalar o tsc via npm - npm install -g typescript)
+
+5. Rode via http-server: via console: http-server
+- Para instalá-lo npm install-g http-server
+
+6. Para parar o servidor: Ctrl + C e Enter
