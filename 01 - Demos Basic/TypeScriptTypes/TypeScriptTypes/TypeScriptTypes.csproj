@@ -74,6 +74,7 @@
     <Content Include="04_primitives.html" />
     <Content Include="05_objects.html" />
     <Content Include="06_functions.html" />
+    <Content Include="07_interfaces.html" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,7 +87,7 @@
     <TypeScriptCompile Include="Scripts\04_primitives.ts" />
     <TypeScriptCompile Include="Scripts\05_objects.ts" />
     <TypeScriptCompile Include="Scripts\06_functions.ts" />
-    <TypeScriptCompile Include="Scripts\extra_timer.ts" />
+    <TypeScriptCompile Include="Scripts\07_interfaces.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
