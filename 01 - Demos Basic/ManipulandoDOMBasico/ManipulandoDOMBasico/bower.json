@@ -1,0 +1,24 @@
+{
+  "name": "ManipulandoDOMBasico",
+  "homepage": "https://github.com/fnalin/Curso-TypeScript",
+  "authors": [
+    "Fabiano Alberto Nalin <fnalin@msn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
