@@ -1,0 +1,25 @@
+{
+  "name": "AngularSampleProducts",
+  "homepage": "https://github.com/fnalin/Curso-TypeScript",
+  "authors": [
+    "Fabiano Alberto Nalin <fnalin@msn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}

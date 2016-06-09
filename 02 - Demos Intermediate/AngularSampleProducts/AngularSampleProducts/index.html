@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <title>FAN Products</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body ng-app="prodapp">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">FAN Product Management</div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div ng-include="'app/products/products-list.html'"></div>
+    </div>
+
+    <!-- Library Scripts -->
+    <script src="lib/angular/angular.min.js"></script>
+    <!-- Application Script -->
+    <script src="app/app.js"></script>
+    <!-- Domain Classes -->
+    <!-- Services -->
+    <!-- Controllers -->
+    <script src="app/Products/products-controller.js"></script>
+</body>
+</html>
