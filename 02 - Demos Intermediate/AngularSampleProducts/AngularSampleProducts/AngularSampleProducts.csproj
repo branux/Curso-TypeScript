@@ -22,7 +22,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\Products\products-list.html" />
+    <Content Include="app\products\productDetailView.html" />
+    <Content Include="app\products\products-list.html" />
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
@@ -34,8 +35,12 @@
   <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="app\app.ts" />
-    <TypeScriptCompile Include="app\Products\product.ts" />
-    <TypeScriptCompile Include="app\Products\products-controller.ts" />
+    <TypeScriptCompile Include="app\common\services\common.services.ts" />
+    <TypeScriptCompile Include="app\common\services\dataAccess-service.ts" />
+    <TypeScriptCompile Include="app\common\services\productResourceMock.ts" />
+    <TypeScriptCompile Include="app\products\product.ts" />
+    <TypeScriptCompile Include="app\products\products-list-controller.ts" />
+    <TypeScriptCompile Include="app\products\products-detail-controller.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
