@@ -1,11 +1,21 @@
 var ContatManagerApp;
 (function (ContatManagerApp) {
     var MainController = (function () {
-        function MainController(message) {
-            this.message = message;
+        function MainController(userService, $mdSidenav) {
+            this.userService = userService;
+            this.$mdSidenav = $mdSidenav;
+            this.users = [];
             this.message = "Olá do MainController";
+            var self = this;
+            this.userService.loadAllUsers().then(function (users) {
+                self.users = users;
+                console.log(self.users);
+            });
         }
-        MainController.$inject = [];
+        MainController.prototype.toggleSideNav = function () {
+            this.$mdSidenav("left").toggle();
+        };
+        MainController.$inject = ["userService", "$mdSidenav"];
         return MainController;
     }());
     angular

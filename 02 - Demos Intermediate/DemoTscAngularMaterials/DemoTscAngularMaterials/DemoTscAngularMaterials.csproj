@@ -23,6 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\assets\app.css" />
+    <Content Include="app\dist\view\sidenav.html" />
+    <Content Include="app\dist\view\toolbar-header.html" />
     <Content Include="app\index.html" />
   </ItemGroup>
   <ItemGroup>
@@ -32,11 +34,13 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\dist\" />
+    <Folder Include="app\assets\svg\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\src\app.ts" />
     <TypeScriptCompile Include="app\src\controllers\mainController.ts" />
+    <TypeScriptCompile Include="app\src\models.ts" />
+    <TypeScriptCompile Include="app\src\services\userService.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
