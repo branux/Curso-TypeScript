@@ -20,10 +20,21 @@
 
     <div ng-include="'./dist/view/sidenav.html'" layout="vertical"></div>
 
-    <div layout="column" flex>
+    <div layout="column" flex id="wrapper">
         <div ng-include="'./dist/view/toolbar-header.html'"></div>
         <md-content flex id="content">
-            Main Content
+            <div ng-include="'dist/view/main-content.html'"></div>
+
+            <md-tabs md-dynamic-height="" md-stretch-tabs="always" md-selected="vm.tabIndex">
+                <md-tab label="Bio">
+                    <div ng-include="'dist/view/tab-bio.html'"></div>
+                </md-tab>
+                <md-tab label="Notes">
+                    <div ng-include="'dist/view/tab-notes.html'"></div>
+                </md-tab>
+            </md-tabs>
+
+
         </md-content>
     </div>
 
@@ -31,11 +42,15 @@
     <script src="./lib/angular-animate/angular-animate.min.js"></script>
     <script src="./lib/angular-aria/angular-aria.min.js"></script>
     <script src="./lib/angular-material/angular-material.min.js"></script>
-    <script src="lib/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="./lib/angular-messages/angular-messages.min.js"></script>
+    <script src="./lib/angular-material-icons/angular-material-icons.min.js"></script>
 
+    <script src="./dist/models.js"></script>
     <script src="./dist/app.js"></script>
-    <script src="dist/services/userService.js"></script>
+    <script src="./dist/services/userService.js"></script>
     <script src="./dist/controllers/mainController.js"></script>
+    <script src="./dist/controllers/addUserDialogController.js"></script>
+    <script src="./dist/controllers/contactPanelController.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\assets\app.css" />
+    <Content Include="app\dist\view\contactSheet.html" />
+    <Content Include="app\dist\view\main-content.html" />
+    <Content Include="app\dist\view\newUserDialog.html" />
     <Content Include="app\dist\view\sidenav.html" />
+    <Content Include="app\dist\view\tab-bio.html" />
+    <Content Include="app\dist\view\tab-notes-form.html" />
+    <Content Include="app\dist\view\tab-notes.html" />
     <Content Include="app\dist\view\toolbar-header.html" />
     <Content Include="app\index.html" />
   </ItemGroup>
@@ -38,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\src\app.ts" />
+    <TypeScriptCompile Include="app\src\controllers\addUserDialogController.ts" />
+    <TypeScriptCompile Include="app\src\controllers\contactPanelController.ts" />
     <TypeScriptCompile Include="app\src\controllers\mainController.ts" />
     <TypeScriptCompile Include="app\src\models.ts" />
     <TypeScriptCompile Include="app\src\services\userService.ts" />
